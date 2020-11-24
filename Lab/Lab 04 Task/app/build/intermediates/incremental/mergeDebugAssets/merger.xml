@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\Git\2.2_Activity_lifecycle_and_state\ShoppingList\app\src\main\assets"/><source path="H:\Git\2.2_Activity_lifecycle_and_state\ShoppingList\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="H:\Git\2.2_Activity_lifecycle_and_state\ShoppingList\app\src\debug\assets"/></dataSet></merger>

@@ -1,0 +1,4 @@
+#Tue Nov 24 17:51:31 BDT 2020
+base.0=H\:\\Git\\2.2_Activity_lifecycle_and_state\\ShoppingList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

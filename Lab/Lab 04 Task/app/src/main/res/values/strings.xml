@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Grocery List</string>
+    <string name="add_item">Add Item</string>
+    <string name="eggs">Eggs</string>
+    <string name="cheese">Cheese</string>
+    <string name="rice">Rice</string>
+    <string name="milk">Milk</string>
+    <string name="wheat_flour">Wheat Flour</string>
+    <string name="bread">Bread</string>
+    <string name="sugar">Sugar</string>
+    <string name="salt">Salt</string>
+    <string name="oil">Oil</string>
+    <string name="Chocolate">Chocolate</string>
+    <string name="space" />
+    <string name="Butter">Butter</string>
+    <string name="Daal">Daal</string>
+</resources>

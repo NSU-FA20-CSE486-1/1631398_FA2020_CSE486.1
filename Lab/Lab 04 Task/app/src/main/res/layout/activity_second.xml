@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button_milk"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/milk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_salt" />
+
+    <Button
+        android:id="@+id/button_eggs"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="selectItem"
+        android:text="@string/eggs"
+        app:layout_constraintBottom_toTopOf="@+id/button_rice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_daal"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/Daal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_butter" />
+
+    <Button
+        android:id="@+id/button_rice"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/rice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_eggs" />
+
+    <Button
+        android:id="@+id/button_wheat"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/wheat_flour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_daal" />
+
+    <Button
+        android:id="@+id/button_bread"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/bread"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_rice" />
+
+    <Button
+        android:id="@+id/button_sugar"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/sugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_wheat" />
+
+    <Button
+        android:id="@+id/button_salt"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:onClick="selectItem"
+        android:text="@string/salt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_bread" />
+
+    <Button
+        android:id="@+id/button_oil"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="selectItem"
+        android:text="@string/oil"
+        app:layout_constraintBottom_toTopOf="@+id/button_eggs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_sugar" />
+
+    <Button
+        android:id="@+id/button_butter"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="selectItem"
+        android:text="@string/Butter"
+        app:layout_constraintBottom_toTopOf="@+id/button_daal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
