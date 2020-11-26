@@ -1,32 +1,25 @@
-# 1234567_FA2020_CSE486.1
-Sample Repository for all work in CSE486.1
-Clone this repository, rename it, make it private, create folder structure.
+# 1631398_FA2020_CSE486.1
 
-How to create your repository?
+Prject Name: Homemade Food Delivery App
 
-<7 Digit Student ID>_FA2020_CSE486.1
+------
 
-For Example, if your 7 digit student ID is 1911231, then your repository will be 1911231_FA2020_CSE486.1
+# Project Overiew
 
-Folder Structure:
+1) Introduction: 
 
-1911231_FA2020_CSE486.1
 
-  |-------- Assignments
-  
-              |------------- Assignment 1
-              
-              |------------- Assignment 2
-              
-              |------------- Assignment 3
-              
-              |------------- Assignment 4
-              
-  |-------- Android Project
-  
-              |------------- README.md
-              
-              |------------- Project Code
+2) Features:
+ 
+
+3) Data Management:
+Explaining the backend data management for your application. Are you using a local storage? SQL/NoSQL database? Firebase? How is large-scale data being managed for your application?
+
+4) Design Pattern:
+Explaining how you are using different software design patterns (Separation of Concern, MVC/MVVM in your application).
+
+5) Roadblocks:
+Explaining the technical roadblocks encountered while working with your application. Add code snippets if necessary. 
               
                               
   
