@@ -1,6 +1,6 @@
 # 1631398_FA2020_CSE486.1
 
-Prject Name: Homemade Food Delivery App
+Project Name: FOODIES(A Homemade Food Delivery App)
 
 ------
 
