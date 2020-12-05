@@ -6,20 +6,11 @@ Project Name: FOODIES(A Homemade Food Delivery App)
 
 # Project Overiew
 
-1) Introduction: 
+1) Introduction: This app provides service for the people who prefers homemade foods rather than food from restaurants. The app usually connects the customers with homemade chefs.
+                 This app can be helpful for the people especially who are bachelors or office goers as they can set up monthly plan according to their needs. Besides, for any                      sort of events, people dont need to worry regarding the preparation of food rather they can take help from this app to pre-order the items and get delivered on                    the event day.    
 
 
-2) Features:
- 
 
-3) Data Management:
-Explaining the backend data management for your application. Are you using a local storage? SQL/NoSQL database? Firebase? How is large-scale data being managed for your application?
-
-4) Design Pattern:
-Explaining how you are using different software design patterns (Separation of Concern, MVC/MVVM in your application).
-
-5) Roadblocks:
-Explaining the technical roadblocks encountered while working with your application. Add code snippets if necessary. 
               
                               
   
