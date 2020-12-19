@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="economy">Prime Minister Sheikh Hasina today said the government has been working to build a vibrant blue economy by utilising marine resources for Bangladesh economic prosperity. We not only want to protect our seas, but also use marine resources so that we can achieve economic prosperity. We have adopted the concept of blue economy and keep working on it, she said. The PM said this while commissioning five modern warships of Bangladesh Navy at the Naval Berth-1 in Chattogram through a video conference from her official residence Gono Bhaban.
+        She said Father of the Nation Bangabandhu Sheikh Mujibur Rahman had formulated the Territorial Waters and Maritime Zones Act, 1974 even before the United Nations adopted the marine law.</string>
+
+    <string name="tech_news">Google has recently partnered with the Bangladesh Water Development Board (BWDB) and the Access to Information (a2i) Programme to bring the Google Flood Forecasting Initiative to Bangladesh, which experiences more flooding than any other country in the world. Google currently covers more than 40 million people in Bangladesh, and has been working to extend the flood forecasting to the whole country.
+        If there is a current flooding situation in an area, users will see a visual overview of essential information, including the rise or fall of the water level in the next day with a description of the situation containing specific guidance where available.  </string>
+
+    <string name="agriculture">Rising temperatures will stimulate insects’ appetites -- and make some prone to reproducing more quickly -- spelling danger for key staples like wheat, corn and rice which feed billions of people, researchers have said.
+        And since these three crops account for 42 percent of the calories people eat worldwide, any uptick in scarcity could give rise to food insecurity and conflict, particularly in poorer parts of the globe.</string>
+
+    <string name="sports">The Indian press and former players savaged the national cricket team on Saturday after they slumped to their lowest-ever score in a "humiliating" and "jaw-dropping" Test defeat in Australia.
+        India were bundled out for 36 in the second innings of the first Test in Adelaide as Australian pacemen Josh Hazlewood and Pat Cummins put the visitors to the sword. </string>
+
+    <string name="tab_label1">Economy</string>
+    <string name="tab_label2">Tech News</string>
+    <string name="tab_label3">Agriculture</string>
+    <string name="tab_label4">Sports</string>
+</resources>

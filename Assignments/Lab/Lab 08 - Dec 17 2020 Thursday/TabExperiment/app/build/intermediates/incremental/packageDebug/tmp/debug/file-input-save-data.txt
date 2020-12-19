@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Dec 19 17:05:13 BDT 2020
+0.baseType=DIRECTORY
+0.base=H\:\\4.4_User_navigation\\TabExperiment\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\4.4_User_navigation\TabExperiment\app\src\main\assets"/><source path="H:\4.4_User_navigation\TabExperiment\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="H:\4.4_User_navigation\TabExperiment\app\src\debug\assets"/></dataSet></merger>
