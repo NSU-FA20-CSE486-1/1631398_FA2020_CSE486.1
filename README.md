@@ -18,6 +18,7 @@ This app can be helpful for the people especially who are bachelors or office go
 --------------------
 
 ----------------- Customer's Account -----------------
+----------  
   i. Plan for an Event.
  ii. Plan for Office Meal. 
 iii. Setting up Monthly Plan.
@@ -25,13 +26,11 @@ iii. Setting up Monthly Plan.
   v. Add balance from wallet using Bkash.
  
 ------------------- Chef's Account -------------------
+--------
   i. Receive Orders from customers.
  ii. Accept/Reject orders. 
 iii. Add/Delete/Update menus to its store.
  iv. Redeem balance from wallet using Bkash.
- 
- 
-              
--------------------------------------------------------- #END ----------------------------------------------------------------                              
+                             
   
               
