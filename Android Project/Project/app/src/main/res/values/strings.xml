@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Foodies</string>
+    <string name="chef">chef</string>
+    <string name="customer">customer</string>
+</resources>
