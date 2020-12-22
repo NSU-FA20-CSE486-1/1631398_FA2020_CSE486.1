@@ -2,4 +2,6 @@
     <string name="app_name">Foodies</string>
     <string name="chef">chef</string>
     <string name="customer">customer</string>
+    <string name="login">login</string>
+    <string name="create_account">create account</string>
 </resources>
