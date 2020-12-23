@@ -4,4 +4,9 @@
     <string name="customer">customer</string>
     <string name="login">login</string>
     <string name="create_account">create account</string>
+    <string name="confirm">confirm</string>
+    <string name="Password">Password</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="OR">OR</string>
+    <string name="up_btn">Up Button</string>
 </resources>

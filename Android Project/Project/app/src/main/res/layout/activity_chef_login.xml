@@ -83,7 +83,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:layout_marginBottom="9dp"
-        android:text="Phone Number"
+        android:text="@string/Phone_Number"
         android:textColor="#9C27B0"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
@@ -96,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:layout_marginBottom="9dp"
-        android:text="Password"
+        android:text="@string/Password"
         android:textColor="#9C27B0"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
@@ -108,12 +108,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="27dp"
-        android:text="OR"
+        android:text="@string/OR"
         android:textColor="#000000"
-        android:textSize="20"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+        android:contentDescription="@string/up_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
