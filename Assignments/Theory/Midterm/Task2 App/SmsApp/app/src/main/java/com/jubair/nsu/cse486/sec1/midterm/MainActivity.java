@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.jubair.nsu.cse486.sec1.midterm.MESSAGE";
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +19,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     public void sendMessage(View view) {
-     //Write Function
+        Intent i = new Intent(this, SecondActivity.class);
+        EditText writeMsg = (EditText) findViewById(R.id.editText_WriteMsg);
+        String message = writeMsg.getText().toString();
+        i.putExtra(EXTRA_MESSAGE, message);
+        startActivity(i);
     }
 
 
