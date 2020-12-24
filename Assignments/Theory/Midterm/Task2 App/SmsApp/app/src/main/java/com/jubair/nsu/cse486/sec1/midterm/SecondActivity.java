@@ -17,11 +17,16 @@ public class SecondActivity extends AppCompatActivity {
 
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
+
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message2 = intent.getStringExtra(MainActivity.EXTRA_ITEMS);
 
         // Capture the layout's TextView and set the string as its text
         TextView et = findViewById(R.id.EncryptedText);
         et.setText(message);
+
+        TextView key = findViewById(R.id.GetKey);
+        key.setText(message2);
 
     }
 

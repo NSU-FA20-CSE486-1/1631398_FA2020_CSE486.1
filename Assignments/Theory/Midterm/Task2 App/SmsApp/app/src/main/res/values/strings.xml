@@ -6,4 +6,5 @@
     <string name="Write">Write a message...</string>
     <string name="Key">Key</string>
     <string name="Decrypt">Decrypt</string>
+    <string name="enterkey">"Enter key to decrypt "</string>
 </resources>

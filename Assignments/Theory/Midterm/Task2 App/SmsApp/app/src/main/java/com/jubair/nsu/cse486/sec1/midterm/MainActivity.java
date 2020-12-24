@@ -9,6 +9,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.jubair.nsu.cse486.sec1.midterm.MESSAGE";
+    public static final String EXTRA_ITEMS = "com.jubair.nsu.cse486.sec1.midterm.ITEMS";
     EditText writeMsg;
     EditText key;
 
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent i = new Intent(this, SecondActivity.class);
         i.putExtra(EXTRA_MESSAGE, encryptedText);
+        i.putExtra(EXTRA_ITEMS, secretkey);
         startActivity(i);
     }
 
