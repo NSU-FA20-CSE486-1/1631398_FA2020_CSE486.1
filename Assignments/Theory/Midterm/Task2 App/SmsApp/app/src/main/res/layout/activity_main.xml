@@ -6,13 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="339dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="250dp"
+        android:text="@string/send"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_WriteMsg" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="300dp"
+        android:text="@string/SMS"
+        android:textColor="#F80000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_WriteMsg"
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="81dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/Write"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/btn_send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText_WriteKey"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/Key"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_WriteMsg"
+        app:layout_constraintStart_toStartOf="@+id/editText_WriteMsg"
+        app:layout_constraintTop_toBottomOf="@+id/editText_WriteMsg"
+        android:autofillHints="" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
