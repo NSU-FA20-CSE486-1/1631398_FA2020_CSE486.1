@@ -45,14 +45,14 @@
         android:ems="10"
         android:hint="*******************"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnChefLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.605"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnChefLogin"
         android:layout_width="270dp"
         android:layout_height="0dp"
         android:layout_marginStart="82dp"
@@ -65,12 +65,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnChefRegister"
         android:layout_width="270dp"
         android:layout_height="0dp"
         android:layout_marginStart="82dp"
         android:layout_marginEnd="83dp"
         android:layout_marginBottom="104dp"
+        android:onClick="OpenChefRegistration"
         android:text="@string/create_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,10 +114,10 @@
         android:text="@string/OR"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintBottom_toTopOf="@+id/btnChefRegister"
+        app:layout_constraintEnd_toEndOf="@+id/btnChefRegister"
+        app:layout_constraintStart_toStartOf="@+id/btnChefRegister"
+        app:layout_constraintTop_toBottomOf="@+id/btnChefLogin" />
 
     <ImageView
         android:id="@+id/back"
@@ -125,6 +126,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="38dp"
         android:contentDescription="@string/up_btn"
+        android:onClick="GoBack"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/homeAsUpIndicator" />
