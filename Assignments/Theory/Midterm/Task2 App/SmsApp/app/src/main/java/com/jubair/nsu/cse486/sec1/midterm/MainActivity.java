@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         int encryptedInt;
         for (int i = 0; i < plainText.length(); i++) {
             int plainTextInt = (int) (plainText.charAt(i) - 'A');
-            int secretKeyInt = 3;
+            int secretKeyInt = (int) (secretKey.charAt(i) - 'A');
             encryptedInt = (plainTextInt + secretKeyInt) % 26;
             encryptedString.append((char) ((encryptedInt) + (int) 'A'));
         }
