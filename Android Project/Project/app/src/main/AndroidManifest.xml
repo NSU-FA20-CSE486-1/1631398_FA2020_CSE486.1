@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodies">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,12 +17,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Customer_login"></activity>
-        <activity android:name=".Chef_login"></activity>
-        <activity android:name=".Customer_Registration"></activity>
-        <activity android:name=".Chef_Registration"></activity>
-        <activity android:name=".LandingPage"></activity>
 
+        <activity android:name=".Customer_login" ></activity>
+        <activity android:name=".Chef_login" ></activity>
+        <activity android:name=".Customer_Registration" ></activity>
+        <activity android:name=".Chef_Registration" ></activity>
+        <activity android:name=".LandingPage" ></activity>
+
+        <activity android:name=".Chef.Chef_Homepage"></activity>
 
     </application>
 
