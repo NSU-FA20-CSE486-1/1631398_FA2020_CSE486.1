@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodies">
 
+        <activity android:name=".Chef.Chef_Kitchen"></activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,14 +19,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--
+               <activity android:name=".Chef_login">
+                   android:parentActivityName=".MainActivity">
+                   <meta-data
+                       android:name="android.support.PARENT_ACTIVITY"
+                       android:value=".MainActivity" />
+               </activity>
+       -->
+        <activity android:name=".Customer_login" />
+        <activity android:name=".Chef_login" />
+        <activity android:name=".Customer_Registration" />
+        <activity android:name=".Chef_Registration" />
+        <activity android:name=".LandingPage" />
+        <activity android:name=".Chef.Chef_Homepage" />
 
-        <activity android:name=".Customer_login" ></activity>
-        <activity android:name=".Chef_login" ></activity>
-        <activity android:name=".Customer_Registration" ></activity>
-        <activity android:name=".Chef_Registration" ></activity>
-        <activity android:name=".LandingPage" ></activity>
 
-        <activity android:name=".Chef.Chef_Homepage"></activity>
 
     </application>
 
