@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodies">
-
-        <activity android:name=".Chef.Chef_Kitchen"></activity>
-
+        <activity android:name=".Chef.Chef_AddItem"></activity>
+        <activity android:name=".Chef.Chef_Kitchen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,16 +25,13 @@
                        android:name="android.support.PARENT_ACTIVITY"
                        android:value=".MainActivity" />
                </activity>
-       -->
+        -->
         <activity android:name=".Customer_login" />
         <activity android:name=".Chef_login" />
         <activity android:name=".Customer_Registration" />
         <activity android:name=".Chef_Registration" />
         <activity android:name=".LandingPage" />
         <activity android:name=".Chef.Chef_Homepage" />
-
-
-
     </application>
 
 </manifest>
