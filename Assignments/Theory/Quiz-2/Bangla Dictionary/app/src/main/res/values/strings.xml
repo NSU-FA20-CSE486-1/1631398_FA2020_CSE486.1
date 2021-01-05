@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="English_Word">English Word</string>
+    <string name="Bangla_Word">Bangla Word</string>
+    <string name="Write_an_english_word">Write an english word</string>
+    <string name="Write_coresponding_bangla_word">Write coresponding bangla word</string>
+    <string name="Save">Save</string>
+    <string name="Dictionary">Dictionary</string>
 </resources>
