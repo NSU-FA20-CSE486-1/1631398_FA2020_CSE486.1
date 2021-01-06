@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.mahakagg.shoppinglist"
+    package="jubairahmed.lab4.shoppinglist"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="me.mahakagg.shoppinglist.MainActivity" >
+        <activity android:name="jubairahmed.lab4.shoppinglist.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,11 +25,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="me.mahakagg.shoppinglist.SecondActivity"
-            android:parentActivityName="me.mahakagg.shoppinglist.MainActivity" >
+            android:name="jubairahmed.lab4.shoppinglist.SecondActivity"
+            android:parentActivityName="jubairahmed.lab4.shoppinglist.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="me.mahakagg.shoppinglist.MainActivity" />
+                android:value="jubairahmed.lab4.shoppinglist.MainActivity" />
         </activity>
     </application>
 

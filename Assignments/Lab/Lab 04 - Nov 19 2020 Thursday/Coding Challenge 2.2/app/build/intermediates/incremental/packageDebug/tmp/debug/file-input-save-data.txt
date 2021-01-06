@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Tue Nov 24 17:51:31 BDT 2020
+#Wed Jan 06 01:28:08 BDT 2021
 0.baseType=DIRECTORY
-0.base=H\:\\Git\\2.2_Activity_lifecycle_and_state\\ShoppingList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=H\:\\Git\\1631398_FA2020_CSE486.1\\Assignments\\Lab\\Lab 04 - Nov 19 2020 Thursday\\Coding Challenge 2.2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
 0.set=DEX
 count=1

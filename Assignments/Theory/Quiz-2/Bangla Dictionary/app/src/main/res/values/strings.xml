@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Test</string>
-    <string name="English_Word">English Word</string>
-    <string name="Bangla_Word">Bangla Word</string>
-    <string name="Write_an_english_word">Write an english word</string>
-    <string name="Write_coresponding_bangla_word">Write coresponding bangla word</string>
-    <string name="Save">Save</string>
-    <string name="Dictionary">Dictionary</string>
+    <string name="app_name" translatable="false">English To Bangla Dictionary</string>
+    <string name="English_Word" translatable="false">English Word</string>
+    <string name="Bangla_Word" translatable="false">Bangla Word</string>
+    <string name="Write_an_english_word" translatable="false">Write an english word</string>
+    <string name="Write_coresponding_bangla_word">বাংলা শব্দ লিখুন</string>
+    <string name="Save" translatable="false">Save</string>
+    <string name="Dictionary" translatable="false">Dictionary</string>
+    <string name="English_Word_List">English Word List</string>
+
 </resources>
