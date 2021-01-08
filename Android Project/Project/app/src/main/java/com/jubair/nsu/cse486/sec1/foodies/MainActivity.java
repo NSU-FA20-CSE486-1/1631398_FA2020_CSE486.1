@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chef_add_item);
+        setContentView(R.layout.activity_customer_explore_items);
     }
 
     public void OpenChef(View v) {
@@ -20,10 +20,5 @@ public class MainActivity extends AppCompatActivity {
     public void OpenCustomer(View v) {
         startActivity(new Intent(MainActivity.this, Customer_login.class));
     }
-
-
-
-
-
 
 }
