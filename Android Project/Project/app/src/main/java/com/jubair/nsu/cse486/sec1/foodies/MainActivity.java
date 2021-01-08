@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer_explore_items);
+        setContentView(R.layout.activity_customer_monthly_plan);
     }
 
     public void OpenChef(View v) {

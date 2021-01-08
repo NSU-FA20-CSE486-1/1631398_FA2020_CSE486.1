@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodies">
-        <activity android:name=".Customer.Customer_Profile"></activity>
+        <activity android:name=".Customer.Customer_MonthlyPlan"></activity>
+        <activity android:name=".Customer.Customer_Profile" />
         <activity android:name=".Customer.Customer_Homepage" />
         <activity android:name=".Chef.Chef_Profile" />
         <activity android:name=".Chef.Chef_AddItem" />
