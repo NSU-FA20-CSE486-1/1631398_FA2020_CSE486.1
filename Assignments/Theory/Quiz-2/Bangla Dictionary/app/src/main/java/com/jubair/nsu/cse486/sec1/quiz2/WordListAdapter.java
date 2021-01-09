@@ -3,8 +3,10 @@ package com.jubair.nsu.cse486.sec1.quiz2;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
-
+import android.content.Intent;
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,9 +19,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
     private final LinkedList<String> mWordList;
     private LayoutInflater mInflater;
 
-    // a ViewHolder class is required to describe a view item and its position within the recycler view
-    // prepare data in a ViewHolder
-    // viewHolder initializes items for the RecyclerView (efficiency)
+
     class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         final TextView wordItemView;
         final WordListAdapter mAdapter;
@@ -32,11 +32,9 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
             itemView.setOnClickListener(this);
         }
 
-        // onclick method implemented here
-        // get position of item clicked, use position to get the item from linked list, make changes and
-        // notify the adapter that there has been a change so it can update recyclerView
         @Override
         public void onClick(View v) {
+
             int mPosition = getLayoutPosition();
             String element = mWordList.get(mPosition);
             mWordList.set(mPosition, "Clicked! " + element);
@@ -51,11 +49,6 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         this.mWordList = wordList;
     }
 
-    /*
-    This method inflates a View item and returns a new ViewHolder that contains it.
-    It is called when the RecyclerView needs a new ViewHolder to represent an item
-    */
-    // this class also initializes the view holder class
     @NonNull
     @Override
     public WordListAdapter.WordViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -64,11 +57,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         return new WordViewHolder(mItemView, this);
     }
 
-    /*
-    onBindViewHolder() sets the contents of a View item at a given position in the RecyclerView.
-    This is called by the RecyclerView, for example, when a new View item scrolls onto the screen.
-    This method binds the data with the viewHolder
-    */
+
     @Override
     public void onBindViewHolder(@NonNull WordListAdapter.WordViewHolder holder, int position) {
         String mCurrent = mWordList.get(position);
