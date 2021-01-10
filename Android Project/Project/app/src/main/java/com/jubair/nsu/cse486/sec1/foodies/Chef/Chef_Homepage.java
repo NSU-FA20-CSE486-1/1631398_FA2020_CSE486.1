@@ -29,7 +29,7 @@ public class Chef_Homepage extends AppCompatActivity {
         setContentView(R.layout.activity_chef_homepage);
 
         /*---------------------Hooks------------------------*/
-        drawerLayout=findViewById(R.id.drawer_layout);
+        drawerLayout=findViewById(R.id.drawer_layout_chef);
         navigationView=findViewById(R.id.nav_view);
         textView=findViewById(R.id.textView);
     }
