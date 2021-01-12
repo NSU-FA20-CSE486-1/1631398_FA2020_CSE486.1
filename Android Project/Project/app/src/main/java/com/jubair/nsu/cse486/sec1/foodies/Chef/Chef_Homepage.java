@@ -13,6 +13,8 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.google.android.material.navigation.NavigationView;
+import com.jubair.nsu.cse486.sec1.foodies.Chef_login;
+import com.jubair.nsu.cse486.sec1.foodies.MainActivity;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
 public class Chef_Homepage extends AppCompatActivity {
@@ -29,21 +31,24 @@ public class Chef_Homepage extends AppCompatActivity {
         setContentView(R.layout.activity_chef_homepage);
 
         /*---------------------Hooks------------------------*/
-        drawerLayout=findViewById(R.id.drawer_layout_chef);
-        navigationView=findViewById(R.id.nav_view);
-        textView=findViewById(R.id.textView);
+   //     drawerLayout=findViewById(R.id.drawer_layout_chef);
+   //     navigationView=findViewById(R.id.nav_view);
+   //     textView=findViewById(R.id.textView);
     }
 
 
 
-    @Override
-    public void onBackPressed(){
-        if(drawerLayout.isDrawerOpen(GravityCompat.START)){
-            drawerLayout.closeDrawer(GravityCompat.START);
-        }
-        else
-        {super.onBackPressed();
-        }
+
+    public void myKitchen(View v) {
+        startActivity(new Intent(Chef_Homepage.this, Chef_Kitchen.class));
+    }
+
+    public void payments(View v) {
+      //  startActivity(new Intent(MainActivity.this, Chef_login.class));
+    }
+
+    public void profile(View v) {
+        startActivity(new Intent(this, Chef_Profile.class));
     }
 
 

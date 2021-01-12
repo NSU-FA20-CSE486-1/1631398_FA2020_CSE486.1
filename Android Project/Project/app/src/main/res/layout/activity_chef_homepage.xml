@@ -100,6 +100,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="40dp"
+            android:onClick="profile"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/profile" />
@@ -171,16 +172,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/rating" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="336dp"
-        android:text="@string/my_kitchen"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginBottom="336dp"
+            android:onClick="myKitchen"
+            android:text="@string/my_kitchen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"

@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.jubair.nsu.cse486.sec1.foodies.Chef.Chef_Homepage;
+
 public class Chef_login extends AppCompatActivity {
 
     @Override
@@ -18,6 +20,10 @@ public class Chef_login extends AppCompatActivity {
 
     public void OpenChefRegistration(View v) {
         startActivity(new Intent(this, Chef_Registration.class));
+    }
+
+    public void login(View v) {
+        startActivity(new Intent(this, Chef_Homepage.class));
     }
 
     public void GoBack(View v) {
