@@ -12,12 +12,14 @@ import android.view.View;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.android.material.navigation.NavigationView;
-import com.jubair.nsu.cse486.sec1.foodies.Chef_login;
-import com.jubair.nsu.cse486.sec1.foodies.MainActivity;
+
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
 public class Chef_Homepage extends AppCompatActivity {
+    FirebaseAuth mFirebaseAuth;
+    private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     //Variables
     DrawerLayout drawerLayout;
