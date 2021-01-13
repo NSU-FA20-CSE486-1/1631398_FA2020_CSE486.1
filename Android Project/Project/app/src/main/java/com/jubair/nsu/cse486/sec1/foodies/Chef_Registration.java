@@ -2,6 +2,7 @@ package com.jubair.nsu.cse486.sec1.foodies;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -9,16 +10,25 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 import com.jubair.nsu.cse486.sec1.foodies.Chef.Chef_Homepage;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Chef_Registration extends AppCompatActivity {
 
+    public static final String TAG = "TAG";
     EditText name,tong,address,phoneNo, emailid, password;
     Button btnSignUp;
     FirebaseAuth mFirebaseAuth;
+    FirebaseFirestore db;
+    String chefID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,12 +36,15 @@ public class Chef_Registration extends AppCompatActivity {
         setContentView(R.layout.activity_chef_registration);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
+        db = FirebaseFirestore.getInstance();
+
         name = findViewById(R.id.editTextName);
         tong = findViewById(R.id.editTextTongName);
         address = findViewById(R.id.editTextAddress);
         phoneNo = findViewById(R.id.editTextPhoneChef);
         emailid = findViewById(R.id.editTextChefEmail);
         password = findViewById(R.id.editTextPasswordChef);
+
         btnSignUp = findViewById(R.id.btnChefConfirm);
 
 
@@ -39,7 +52,12 @@ public class Chef_Registration extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String email = emailid.getText().toString();
-                String pwd = emailid.getText().toString();
+                String pwd = password.getText().toString();
+                String chefName = name.getText().toString();
+                String tongName = tong.getText().toString();
+                String chefAddress = address.getText().toString();
+                String chefPhone = phoneNo.getText().toString();
+
                 if(email.isEmpty()){
                     emailid.setError("Please enter phone number");
                     emailid.requestFocus();
@@ -59,7 +77,28 @@ public class Chef_Registration extends AppCompatActivity {
                                 Toast.makeText(Chef_Registration.this,"SignUp Unsuccessful, Please Try Again",Toast.LENGTH_SHORT).show();
                             }
                             else {
+                                chefID = mFirebaseAuth.getCurrentUser().getUid();
+                                DocumentReference documentReference = db.collection("Chef").document(chefID);
+
+                                Map <String,Object> chef = new HashMap<>();
+                                chef.put("ChefName", chefName );
+                                chef.put("TongName", tongName );
+                                chef.put("Address", chefAddress );
+                                chef.put("Phone", chefPhone );
+                                chef.put("Email", email );
+                                chef.put("Password", pwd );
+
+                                documentReference.set(chef).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void aVoid) {
+                                        Log.d(TAG, "OnSuccess: Chef Profile is created for "+chefID);
+
+                                    }
+                                });
+
+                                Toast.makeText(Chef_Registration.this,"Registered Successfully as chef",Toast.LENGTH_SHORT).show();
                                 startActivity(new Intent(Chef_Registration.this, Chef_Homepage.class));
+
                             }
                         }
                     });
