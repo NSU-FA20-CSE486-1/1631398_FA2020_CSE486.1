@@ -47,13 +47,14 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="70dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/confirm"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordCustomer"
         app:strokeColor="@android:color/holo_red_light" />
 
     <EditText
@@ -71,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
     <EditText
-        android:id="@+id/editTextTextPassword8"
+        android:id="@+id/editTextPasswordCustomer"
         android:layout_width="270dp"
         android:layout_height="47dp"
         android:layout_marginStart="70dp"
@@ -80,6 +81,20 @@
         android:ems="10"
         android:hint="@string/Password"
         android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailCustomer" />
+
+    <EditText
+        android:id="@+id/editTextEmailCustomer"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="70dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone6" />
