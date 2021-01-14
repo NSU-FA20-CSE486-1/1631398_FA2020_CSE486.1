@@ -58,8 +58,20 @@ public class Chef_Registration extends AppCompatActivity {
                 String chefAddress = address.getText().toString();
                 String chefPhone = phoneNo.getText().toString();
 
-                if(email.isEmpty()){
-                    emailid.setError("Please enter phone number");
+                if(chefName.isEmpty()){
+                    name.setError("Please enter your name");
+                    name.requestFocus();
+                }
+                else if(tongName.isEmpty()){
+                    tong.setError("Please enter your tong name");
+                    tong.requestFocus();
+                }
+                else if(chefPhone.isEmpty()){
+                    phoneNo.setError("Please enter your phone number");
+                    phoneNo.requestFocus();
+                }
+                else if(email.isEmpty()){
+                    emailid.setError("Please enter email address");
                     emailid.requestFocus();
                 }
                 else  if(pwd.isEmpty()){
@@ -92,7 +104,6 @@ public class Chef_Registration extends AppCompatActivity {
                                     @Override
                                     public void onSuccess(Void aVoid) {
                                         Log.d(TAG, "OnSuccess: Chef Profile is created for "+chefID);
-
                                     }
                                 });
 

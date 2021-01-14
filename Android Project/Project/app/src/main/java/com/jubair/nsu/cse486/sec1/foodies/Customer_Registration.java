@@ -28,7 +28,7 @@ public class Customer_Registration extends AppCompatActivity {
     EditText name,phoneNo, emailid, password;
     Button btnSignUp;
     FirebaseAuth mFirebaseAuth;
-    FirebaseFirestore db;
+    FirebaseFirestore fStore;
     String customerID;
 
     @Override
@@ -37,7 +37,7 @@ public class Customer_Registration extends AppCompatActivity {
         setContentView(R.layout.activity_customer_registration);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
-        db = FirebaseFirestore.getInstance();
+        fStore = FirebaseFirestore.getInstance();
 
         name = findViewById(R.id.editTextTextPersonName5);
         phoneNo = findViewById(R.id.editTextPhone6);
@@ -75,15 +75,15 @@ public class Customer_Registration extends AppCompatActivity {
                             }
                             else {
                                 customerID = mFirebaseAuth.getCurrentUser().getUid();
-                                DocumentReference documentReference = db.collection("Chef").document(customerID);
+                                DocumentReference documentReference = fStore.collection("Customer").document(customerID);
 
-                                Map<String,Object> chef = new HashMap<>();
-                                chef.put("Name", customerName );
-                                chef.put("Phone", customerPhone );
-                                chef.put("Email", email );
-                                chef.put("Password", pwd );
+                                Map<String,Object> customer = new HashMap<>();
+                                customer.put("Name", customerName );
+                                customer.put("Phone", customerPhone );
+                                customer.put("Email", email );
+                                customer.put("Password", pwd );
 
-                                documentReference.set(chef).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                documentReference.set(customer).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void aVoid) {
                                         Log.d(TAG, "OnSuccess: Chef Profile is created for "+customerID);

@@ -56,18 +56,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chefAddItemheader" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="291dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="30dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
 
     <TextView
         android:id="@+id/textView14"
@@ -79,7 +67,7 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -170,12 +158,40 @@
         android:layout_width="329dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:onClick="addConfirm"
         android:text="@string/confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11">
 
+        <RadioButton
+            android:id="@+id/radioButtonBangla"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:text="Bangla" />
+
+        <RadioButton
+            android:id="@+id/radioButtonChinese"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:text="Chinese" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFastFood"
+            android:layout_width="100dp"
+            android:layout_height="43dp"
+            android:text="Fast Food" />
+    </RadioGroup>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
