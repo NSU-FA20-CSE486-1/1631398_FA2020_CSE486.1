@@ -1,5 +1,6 @@
 package com.jubair.nsu.cse486.sec1.foodies;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,7 @@ public class Chef_login extends AppCompatActivity {
 
     EditText emailid, password;
     Button btnSignIn;
+    ProgressDialog pd;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -31,6 +33,8 @@ public class Chef_login extends AppCompatActivity {
         setContentView(R.layout.activity_chef_login);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
+        pd = new ProgressDialog(this);
+
         emailid = findViewById(R.id.editTextChefEmailLogin);
         password = findViewById(R.id.editTextPassword);
         btnSignIn = findViewById(R.id.btnChefLogin);
@@ -56,6 +60,8 @@ public class Chef_login extends AppCompatActivity {
             public void onClick(View v) {
                 String email = emailid.getText().toString();
                 String pwd = password.getText().toString();
+
+
                 if(email.isEmpty()){
                     emailid.setError("Please enter Phone");
                     emailid.requestFocus();
@@ -75,8 +81,10 @@ public class Chef_login extends AppCompatActivity {
                                 Toast.makeText(Chef_login.this,"Login Error, Please Login Again",Toast.LENGTH_SHORT).show();
                             }
                             else{
+                                Toast.makeText(Chef_login.this,"Signed in Successfully",Toast.LENGTH_SHORT).show();
                                 Intent intToHome = new Intent(Chef_login.this,Chef_Homepage.class);
                                 startActivity(intToHome);
+
                             }
                         }
                     });

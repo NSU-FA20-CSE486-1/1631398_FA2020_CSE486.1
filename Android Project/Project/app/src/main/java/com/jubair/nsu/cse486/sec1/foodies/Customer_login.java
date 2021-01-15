@@ -1,5 +1,6 @@
 package com.jubair.nsu.cse486.sec1.foodies;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ public class Customer_login extends AppCompatActivity {
 
     EditText emailid, password;
     Button btnSignIn;
+    ProgressDialog pd;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -32,6 +34,8 @@ public class Customer_login extends AppCompatActivity {
         setContentView(R.layout.activity_customer_login);
 
         mFirebaseAuth = FirebaseAuth.getInstance();
+        pd = new ProgressDialog(this);
+
         emailid = findViewById(R.id.editTextTextEmailAddressCustomer);
         password = findViewById(R.id.editTextTextPassword3);
         btnSignIn = findViewById(R.id.btnCustomerLogin);
@@ -56,6 +60,7 @@ public class Customer_login extends AppCompatActivity {
             public void onClick(View v) {
                 String email = emailid.getText().toString();
                 String pwd = password.getText().toString();
+
                 if(email.isEmpty()){
                     emailid.setError("Please enter Phone");
                     emailid.requestFocus();
@@ -75,6 +80,7 @@ public class Customer_login extends AppCompatActivity {
                                 Toast.makeText(Customer_login.this,"Login Error, Please Login Again",Toast.LENGTH_SHORT).show();
                             }
                             else{
+                                Toast.makeText(Customer_login.this,"Signed in Successfully",Toast.LENGTH_SHORT).show();
                                 Intent intToHome = new Intent(Customer_login.this,Customer_Homepage.class);
                                 startActivity(intToHome);
                             }
