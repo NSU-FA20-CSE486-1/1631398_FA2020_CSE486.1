@@ -133,7 +133,7 @@ public class Chef_AddItem extends AppCompatActivity {
                 }
             });
 
-            DocumentReference documentReference = db.collection("Chef_Item").document(chefID).collection(foodID).document()  ;
+            DocumentReference documentReference = db.collection("Chef_Item").document("1").collection(chefID).document()  ;
 
             Map<String,Object> item = new HashMap<>();
             item.put("Name", foodName );
