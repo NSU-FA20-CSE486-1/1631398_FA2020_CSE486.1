@@ -1,8 +1,6 @@
 package com.jubair.nsu.cse486.sec1.foodies.Chef;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,21 +9,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.os.Bundle;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.android.material.navigation.NavigationView;
 
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
-import com.jubair.nsu.cse486.sec1.foodies.Adapter.OrderAdapter;
 import com.jubair.nsu.cse486.sec1.foodies.Adapter.TestAdapter;
-import com.jubair.nsu.cse486.sec1.foodies.Adapter.myadapter;
-import com.jubair.nsu.cse486.sec1.foodies.Model.model;
-import com.jubair.nsu.cse486.sec1.foodies.Model.modelOrder;
 import com.jubair.nsu.cse486.sec1.foodies.Model.modelTest;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 

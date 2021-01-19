@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.jubair.nsu.cse486.sec1.foodies.Model.modelOrder;
 import com.jubair.nsu.cse486.sec1.foodies.Model.modelTest;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
