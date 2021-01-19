@@ -49,7 +49,7 @@
         android:layout_marginTop="60dp"
         android:text="My Bucket"
         android:textColor="@color/purple_700"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chefKitchenheader" />
@@ -128,7 +128,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView65" />
 
     <TextView
-        android:id="@+id/textView67"
+        android:id="@+id/quantityText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -140,7 +140,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView64" />
 
     <TextView
-        android:id="@+id/textView68"
+        android:id="@+id/dateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -149,7 +149,7 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView66"
-        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+        app:layout_constraintTop_toBottomOf="@+id/quantityText" />
 
     <TextView
         android:id="@+id/textView69"
@@ -159,7 +159,7 @@
         android:layout_marginTop="60dp"
         android:text="Payments"
         android:textColor="@color/purple_700"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView66" />
@@ -237,7 +237,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView86" />
 
     <TextView
-        android:id="@+id/textView88"
+        android:id="@+id/totalText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
@@ -254,14 +254,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:layout_marginTop="10dp"
-        android:text="ShowPrice"
+        android:text="100"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView86"
-        app:layout_constraintTop_toBottomOf="@+id/textView88" />
+        app:layout_constraintTop_toBottomOf="@+id/totalText" />
 
     <TextView
-        android:id="@+id/textView95"
+        android:id="@+id/payText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
