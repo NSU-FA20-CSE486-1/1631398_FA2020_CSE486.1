@@ -375,5 +375,15 @@
         app:layout_constraintStart_toEndOf="@+id/textView64"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="1dp"
+        android:text="----------------------------------------------------------------------------------------"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

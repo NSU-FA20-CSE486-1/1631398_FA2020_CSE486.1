@@ -1,30 +1,20 @@
 package com.jubair.nsu.cse486.sec1.foodies.Chef;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
-import android.os.Bundle;
-import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.android.material.navigation.NavigationView;
-
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 import com.jubair.nsu.cse486.sec1.foodies.Adapter.OrderAdapter;
 import com.jubair.nsu.cse486.sec1.foodies.Adapter.TestAdapter;
-import com.jubair.nsu.cse486.sec1.foodies.Adapter.myadapter;
-import com.jubair.nsu.cse486.sec1.foodies.Model.model;
 import com.jubair.nsu.cse486.sec1.foodies.Model.modelOrder;
 import com.jubair.nsu.cse486.sec1.foodies.Model.modelTest;
 import com.jubair.nsu.cse486.sec1.foodies.R;
@@ -32,26 +22,20 @@ import com.jubair.nsu.cse486.sec1.foodies.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chef_Homepage extends AppCompatActivity {
-
+public class Chef_Orders extends AppCompatActivity {
     RecyclerView recview;
     ArrayList<modelTest> datalist;
     FirebaseFirestore db;
     TestAdapter adapter;
+ //   FirebaseAuth mFirebaseAuth;
 
-    //Variables
-    DrawerLayout drawerLayout;
-    NavigationView navigationView;
-    Menu menu;
-    TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chef_homepage);
+        setContentView(R.layout.activity_chef_orders);
 
-
-        recview=(RecyclerView)findViewById(R.id.recViewHome);
+        recview=(RecyclerView)findViewById(R.id.recViewOrders);
         recview.setLayoutManager(new LinearLayoutManager(this));
         datalist=new ArrayList<>();
         adapter=new TestAdapter(datalist);
@@ -77,35 +61,9 @@ public class Chef_Homepage extends AppCompatActivity {
                 });
 
 
-
-
-
-
-        /*---------------------Hooks------------------------*/
-   //     drawerLayout=findViewById(R.id.drawer_layout_chef);
-   //     navigationView=findViewById(R.id.nav_view);
-   //     textView=findViewById(R.id.textView);
     }
 
-
-
-    public void seeOrders(View view){
-        startActivity(new Intent(Chef_Homepage.this, Chef_Orders.class));
+    public void GoBack(View v) {
+        startActivity(new Intent(this, Chef_Homepage.class));
     }
-
-    public void myKitchen(View v) {
-        startActivity(new Intent(Chef_Homepage.this, Chef_Kitchen.class));
-    }
-
-    public void payments(View v) {
-      //  startActivity(new Intent(MainActivity.this, Chef_login.class));
-    }
-
-    public void profile(View v) {
-        startActivity(new Intent(this, Chef_Profile.class));
-    }
-
-
-
-
 }

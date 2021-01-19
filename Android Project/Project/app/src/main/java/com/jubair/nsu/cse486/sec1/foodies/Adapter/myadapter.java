@@ -3,7 +3,6 @@ package com.jubair.nsu.cse486.sec1.foodies.Adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -50,8 +49,8 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myviewholder>
         CircleImageView img;
         public myviewholder(@NonNull View itemView) {
             super(itemView);
-            foodName=(TextView)itemView.findViewById(R.id.foodnameText);
-            price=(TextView)itemView.findViewById(R.id.priceShow);
+            foodName=(TextView)itemView.findViewById(R.id.testname);
+            price=(TextView)itemView.findViewById(R.id.testmenu);
             img= (CircleImageView)itemView.findViewById(R.id.imgCard);
 
         }

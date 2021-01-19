@@ -34,7 +34,7 @@
 -->
 
         <TextView
-            android:id="@+id/foodnameText"
+            android:id="@+id/testname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -48,7 +48,7 @@
             android:id="@+id/priceText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/foodnameText"
+            android:layout_below="@id/testname"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@id/imgCard"
@@ -57,10 +57,10 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/priceShow"
+            android:id="@+id/testmenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/foodnameText"
+            android:layout_below="@id/testname"
             android:layout_marginLeft="1dp"
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@id/priceText"

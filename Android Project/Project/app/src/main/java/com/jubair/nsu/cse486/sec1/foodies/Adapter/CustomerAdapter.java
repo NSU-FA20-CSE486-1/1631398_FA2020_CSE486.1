@@ -3,14 +3,12 @@ package com.jubair.nsu.cse486.sec1.foodies.Adapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.jubair.nsu.cse486.sec1.foodies.Model.model;
 import com.jubair.nsu.cse486.sec1.foodies.Model.modelCustomer;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
@@ -52,7 +50,7 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.myview
         CircleImageView img;
         public myviewholder(@NonNull View itemView) {
             super(itemView);
-            foodName=(TextView)itemView.findViewById(R.id.foodnameText);
+            foodName=(TextView)itemView.findViewById(R.id.testname);
             price=(TextView)itemView.findViewById(R.id.priceShowCustomer);
             img= (CircleImageView)itemView.findViewById(R.id.imgCardCustomer);
       //      tongName=(TextView)itemView.findViewById(R.id.tongName);
