@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:onClick="GoBack"
+    android:orientation="vertical"
+    tools:context=".Customer.Customer_Items">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/chefAddItemheader"
@@ -35,7 +37,6 @@
             android:layout_height="25dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:onClick="GoBack"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/back" />
@@ -46,6 +47,7 @@
         android:layout_width="381dp"
         android:layout_height="208dp"
         android:layout_marginTop="40dp"
+        android:onClick="ViewItem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chefAddItemheader"
@@ -56,6 +58,7 @@
         android:layout_width="381dp"
         android:layout_height="208dp"
         android:layout_marginTop="20dp"
+        android:onClick="ViewItem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
@@ -70,6 +73,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
         app:srcCompat="@drawable/fastfood" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jubair.nsu.cse486.sec1.foodies">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodies">
-        <activity android:name=".Customer.Customer_Event"></activity>
+        <activity android:name=".Customer.Customer_ShowItem"></activity>
+        <activity android:name=".Customer.Customer_Items" />
+        <activity android:name=".Customer.Customer_Event" />
         <activity android:name=".Customer.Customer_MonthlyPlan" />
         <activity android:name=".Customer.Customer_Profile" />
         <activity android:name=".Customer.Customer_Homepage" />

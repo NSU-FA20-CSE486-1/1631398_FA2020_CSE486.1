@@ -1,4 +1,4 @@
-package com.jubair.nsu.cse486.sec1.foodies.Chef;
+package com.jubair.nsu.cse486.sec1.foodies.Customer;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -13,83 +13,56 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
-
-import com.jubair.nsu.cse486.sec1.foodies.Adapter.myadapter;
-import com.jubair.nsu.cse486.sec1.foodies.Model.model;
+import com.jubair.nsu.cse486.sec1.foodies.Adapter.CustomerAdapter;
+import com.jubair.nsu.cse486.sec1.foodies.Model.modelCustomer;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chef_Kitchen extends AppCompatActivity {
-//    RecyclerView recview;
-//    CustomerAdapter adapter;
+public class Customer_ShowItem extends AppCompatActivity {
 
     RecyclerView recview;
-    ArrayList<model> datalist;
+    ArrayList<modelCustomer> datalist;
     FirebaseFirestore db;
-    myadapter adapter;
+    CustomerAdapter adapter;
     FirebaseAuth mFirebaseAuth;
     String chefID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chef_kitchen);
+        setContentView(R.layout.activity_customer_show_item);
 
 
-        recview=(RecyclerView)findViewById(R.id.recview);
+        recview=(RecyclerView)findViewById(R.id.recViewCustomer);
         recview.setLayoutManager(new LinearLayoutManager(this));
         datalist=new ArrayList<>();
-        adapter=new myadapter(datalist);
+        adapter=new CustomerAdapter(datalist);
         recview.setAdapter(adapter);
 
-        mFirebaseAuth = FirebaseAuth.getInstance();
-        chefID = mFirebaseAuth.getCurrentUser().getEmail() ;
+   //     mFirebaseAuth = FirebaseAuth.getInstance();
+   //     chefID = mFirebaseAuth.getCurrentUser().getEmail() ;
 
         db=FirebaseFirestore.getInstance();
         db.collection("Chef_Item").document(
-                "1").collection(chefID).get()
+                "1").collection("rohan123@gmail.com").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
                         List<DocumentSnapshot> list=queryDocumentSnapshots.getDocuments();
                         for(DocumentSnapshot d:list)
                         {
-                            model obj=d.toObject(model.class);
-                            datalist.add(obj);
+                            modelCustomer obj1=d.toObject(modelCustomer.class);
+                            datalist.add(obj1);
                         }
                         adapter.notifyDataSetChanged();
                     }
                 });
 
-/*
-        recview=(RecyclerView)findViewById(R.id.recview);
-        recview.setLayoutManager(new LinearLayoutManager(this));
-
-        FirebaseRecyclerOptions<ItemModel> options =
-                new FirebaseRecyclerOptions.Builder<ItemModel>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Chef_Item"), ItemModel.class)
-                        .build();
-
-        adapter=new CustomerAdapter(options);
-        recview.setAdapter(adapter);
-*/
-
-    }
-
-
-
-
-
-
-    public void addItem(View v) {
-        startActivity(new Intent(Chef_Kitchen.this, Chef_AddItem.class));
     }
 
     public void GoBack(View v) {
-        startActivity(new Intent(this, Chef_Homepage.class));
+        startActivity(new Intent(this, Customer_Items.class));
     }
-
-
 }

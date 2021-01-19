@@ -14,22 +14,33 @@
 
 
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:id="@+id/imgCard"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            />
 
 
+<!--
         <ImageView
             android:id="@+id/imgCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_launcher_background" />
+-->
 
         <TextView
             android:id="@+id/foodnameText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:layout_toRightOf="@id/imgCard"
             android:text="Food Name"
-            android:textColor="#000"
+            android:textColor="@color/purple_700"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -38,22 +49,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/foodnameText"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/imgCard"
-            android:text="Price:"
-            android:textColor="#000"
+            android:text="Tk."
+            android:textColor="@android:color/holo_red_light"
             android:textSize="18sp" />
+
         <TextView
             android:id="@+id/priceShow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/foodnameText"
+            android:layout_marginLeft="1dp"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/priceText"
             android:text="Show"
-            android:textColor="#000"
+            android:textColor="@android:color/holo_red_light"
             android:textSize="18sp" />
 
         <ImageView

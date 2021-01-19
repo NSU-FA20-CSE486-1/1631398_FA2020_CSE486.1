@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Chef.Chef_Kitchen">
+    tools:context=".Customer.Customer_ShowItem">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/chefKitchenheader"
+        android:id="@+id/chefAddItemheader"
         android:layout_width="436dp"
         android:layout_height="60dp"
         android:background="@drawable/nav_bar"
@@ -18,11 +18,11 @@
 
         <TextView
             android:id="@+id/textView10"
-            android:layout_width="150dp"
-            android:layout_height="43dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
-            android:text="My Kitchen"
+            android:text="Food Items"
             android:textColor="@color/white"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,27 +41,15 @@
             app:srcCompat="@drawable/back" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="365dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="80dp"
-        android:onClick="addItem"
-        android:text="@string/add_item"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/chefKitchenheader" />
-
-
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recview"
-        android:layout_width="423dp"
-        android:layout_height="653dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
+        android:id="@+id/recViewCustomer"
+        android:layout_width="439dp"
+        android:layout_height="710dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
-
+        app:layout_constraintTop_toBottomOf="@+id/chefAddItemheader" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

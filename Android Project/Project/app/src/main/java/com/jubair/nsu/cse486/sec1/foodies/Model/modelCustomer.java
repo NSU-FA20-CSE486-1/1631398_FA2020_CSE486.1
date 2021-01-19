@@ -1,18 +1,19 @@
 package com.jubair.nsu.cse486.sec1.foodies.Model;
 
-public class model {
+public class modelCustomer {
     String Name;
     String Price;
     String ImageUri;
 
-    public model() {
+    public modelCustomer() {
     }
 
-    public model(String Name, String Price,String ImageUri) {
+    public modelCustomer(String Name, String Price,String ImageUri) {
         this.Name = Name;
         this.Price = Price;
         this.ImageUri = ImageUri;
     }
+
 
     public String getName() {
         return Name;

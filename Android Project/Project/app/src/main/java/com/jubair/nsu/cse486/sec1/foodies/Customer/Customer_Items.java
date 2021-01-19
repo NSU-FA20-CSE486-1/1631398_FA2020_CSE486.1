@@ -11,34 +11,19 @@ import com.jubair.nsu.cse486.sec1.foodies.Chef.Chef_Homepage;
 import com.jubair.nsu.cse486.sec1.foodies.Chef.Chef_Kitchen;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
-public class Customer_Homepage extends AppCompatActivity {
+public class Customer_Items extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_customer_hompage);
+        setContentView(R.layout.activity_customer_items);
     }
 
-    public void exploreItems(View v) {
-        startActivity(new Intent(this, Customer_Items.class));
+    public void ViewItem(View v) {
+        startActivity(new Intent(Customer_Items.this, Customer_ShowItem.class));
     }
 
-    public void event(View v) {
-        startActivity(new Intent(this, Customer_Event.class));
+    public void GoBack(View v) {
+        startActivity(new Intent(this, Customer_Homepage.class));
     }
-
-    public void monthlyPlan(View v) {
-        startActivity(new Intent(this, Customer_MonthlyPlan.class));
-    }
-
-    public void profile_customer(View v) {
-        startActivity(new Intent(this, Customer_Profile.class));
-    }
-
-
-
-
-
-
-
 }
