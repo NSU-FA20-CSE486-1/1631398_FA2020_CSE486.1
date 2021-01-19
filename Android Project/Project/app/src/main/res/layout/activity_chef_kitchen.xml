@@ -8,7 +8,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/chefKitchenheader"
-        android:layout_width="436dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/nav_bar"
         android:padding="10dp"

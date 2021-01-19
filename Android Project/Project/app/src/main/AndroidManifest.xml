@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Foodies">
-        <activity android:name=".Customer.Customer_ShowItem"></activity>
+        <activity android:name=".Orders.ConfirmOrder"></activity>
+        <activity android:name=".Orders.Checkout" />
+        <activity android:name=".Customer.Customer_ShowItem" />
         <activity android:name=".Customer.Customer_Items" />
         <activity android:name=".Customer.Customer_Event" />
         <activity android:name=".Customer.Customer_MonthlyPlan" />
