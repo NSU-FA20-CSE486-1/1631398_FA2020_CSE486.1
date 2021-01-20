@@ -54,7 +54,7 @@ public class Chef_Homepage extends AppCompatActivity {
 
         db=FirebaseFirestore.getInstance();
         db.collection("Orders").document(
-                "Event").collection("sayem123@gmail.com").get()
+                "Event").collection("rohan123@gmail.com").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
@@ -80,10 +80,6 @@ public class Chef_Homepage extends AppCompatActivity {
     }
 
 
-
-    public void seeOrders(View view){
-        startActivity(new Intent(Chef_Homepage.this, Chef_Orders.class));
-    }
 
     public void myKitchen(View v) {
         startActivity(new Intent(Chef_Homepage.this, Chef_Kitchen.class));

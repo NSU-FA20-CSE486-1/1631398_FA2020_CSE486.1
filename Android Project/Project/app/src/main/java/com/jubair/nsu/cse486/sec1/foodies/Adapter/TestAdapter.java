@@ -32,7 +32,7 @@ public class TestAdapter extends RecyclerView.Adapter<TestAdapter.myviewholder>
     public void onBindViewHolder(@NonNull TestAdapter.myviewholder holder, int position) {
         holder.menu.setText(datalist.get(position).getMenu());
         holder.name.setText(datalist.get(position).getCustomerName());
-   //     holder.amount.setText(datalist.get(position).getTotalAmount());
+        holder.amount.setText(datalist.get(position).getTotalAmount());
         holder.date.setText(datalist.get(position).getEventDate());
         holder.quantity.setText(datalist.get(position).getQuantity());
         holder.phone.setText(datalist.get(position).getCustomerPhone());
@@ -45,13 +45,13 @@ public class TestAdapter extends RecyclerView.Adapter<TestAdapter.myviewholder>
 
     class myviewholder extends RecyclerView.ViewHolder
     {
-        TextView menu,name,date,quantity,phone;
+        TextView menu,name,date,quantity,phone,amount;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
             menu=(TextView)itemView.findViewById(R.id.setType);
             name=(TextView)itemView.findViewById(R.id.showName);
-  //          amount=(TextView)itemView.findViewById(R.id.showAmount);
+            amount=(TextView)itemView.findViewById(R.id.showAmount);
             date=(TextView)itemView.findViewById(R.id.showDate);
             quantity=(TextView)itemView.findViewById(R.id.showQuantity);
             phone=(TextView)itemView.findViewById(R.id.showPhone);

@@ -2,7 +2,7 @@ package com.jubair.nsu.cse486.sec1.foodies.Model;
 
 public class modelTest {
     String Menu,CustomerName,EventDate,Quantity,CustomerPhone ;
- //   String TotalAmount;
+    String TotalAmount;
 
     public modelTest() {
     }
@@ -10,13 +10,13 @@ public class modelTest {
     public modelTest(String Menu, String CustomerName,String EventDate,String Quantity, String CustomerPhone) {
         this.Menu = Menu;
         this.CustomerName = CustomerName;
- //       this.TotalAmount = TotalAmount;
+        this.TotalAmount = TotalAmount;
         this.EventDate = EventDate;
         this.Quantity = Quantity;
         this.CustomerPhone = CustomerPhone;
     }
 
-/*
+
     public String getTotalAmount() {
         return TotalAmount;
     }
@@ -24,7 +24,7 @@ public class modelTest {
     public void setTotalAmount(String totalAmount) {
         TotalAmount = totalAmount;
     }
-*/
+
 
     public String getQuantity() {
         return Quantity;

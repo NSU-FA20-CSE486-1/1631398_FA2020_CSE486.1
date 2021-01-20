@@ -1,6 +1,7 @@
 package com.jubair.nsu.cse486.sec1.foodies.Customer;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +9,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import com.jubair.nsu.cse486.sec1.foodies.Chef.Chef_Homepage;
+import com.jubair.nsu.cse486.sec1.foodies.Fragment.DatePickerFragment;
 import com.jubair.nsu.cse486.sec1.foodies.Orders.Checkout;
 import com.jubair.nsu.cse486.sec1.foodies.R;
 
@@ -48,6 +51,23 @@ public class Customer_Event extends AppCompatActivity {
         i.putExtra(EXTRA_DATE, Date);
         i.putExtra(EXTRA_QUANTITY, Quantity);
         startActivity(i);
+
+    }
+
+
+    public void processDatePickerResult(int year, int month, int dayOfMonth){
+        String year_string = Integer.toString(year);
+        String month_string = Integer.toString(month + 1);
+        String day_string = Integer.toString(dayOfMonth);
+        String date_message = day_string + "/" + month_string + "/" + year_string;
+    //    Toast.makeText(getApplicationContext(), "Date Selected: " + date_message, Toast.LENGTH_SHORT).show();
+        date.setText(date_message);
+
+    }
+
+    public void showDatePicker(View view) {
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(),"datePicker");
 
     }
 

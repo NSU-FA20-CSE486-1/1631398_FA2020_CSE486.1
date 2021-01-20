@@ -1,7 +1,7 @@
-#Mon Jan 04 18:26:44 BDT 2021
-base.0=H\:\\NotifyMeCC\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+#Wed Jan 20 03:55:29 BDT 2021
+base.0=H\:\\Git\\1631398_FA2020_CSE486.1\\Assignments\\Lab\\Lab 10 - Dec 31 2020 Thursday\\Notification\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=H\:\\NotifyMeCC\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+base.1=H\:\\Git\\1631398_FA2020_CSE486.1\\Assignments\\Lab\\Lab 10 - Dec 31 2020 Thursday\\Notification\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

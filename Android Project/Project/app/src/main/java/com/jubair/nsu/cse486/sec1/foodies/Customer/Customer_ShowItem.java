@@ -46,7 +46,7 @@ public class Customer_ShowItem extends AppCompatActivity {
 
         db=FirebaseFirestore.getInstance();
         db.collection("Chef_Item").document(
-                "1").collection("rohan123@gmail.com").get()
+                "1").collection("sayem123@gmail.com").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DateAndTime.iml" filepath="$PROJECT_DIR$/.idea/modules/DateAndTime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DateAndTime.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DateAndTime.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab_07_-_Dec_10_2020_Thursday.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab_07_-_Dec_10_2020_Thursday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lab_07_-_Dec_10_2020_Thursday.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lab_07_-_Dec_10_2020_Thursday.app.iml" />
     </modules>
   </component>
 </project>

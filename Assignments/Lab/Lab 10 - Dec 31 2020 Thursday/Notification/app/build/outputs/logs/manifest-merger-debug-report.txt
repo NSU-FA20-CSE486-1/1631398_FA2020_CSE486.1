@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\051200ace87f568e5c2b2f1bb33772bc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aec7d538729fdf7fee2a21c752dc97aa\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\6d4d7cb6aef2e51743b9867d7afa19a5\AndroidManifest.xml:17:1-22:12
@@ -31,25 +31,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Jubair\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ab8a13a4e6f063255c559567c636c6d4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a00e1045b9911c0e0ba6d43e3a8e6942\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2dfc45621183ef7705986d10dc7a44d5\AndroidManifest.xml:17:1-22:12
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aec7d538729fdf7fee2a21c752dc97aa\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aec7d538729fdf7fee2a21c752dc97aa\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1f9c6fcbfec35b3582fde3a36a484a7e\AndroidManifest.xml:22:5-94
@@ -59,35 +59,35 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Jubair\.gr
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1f9c6fcbfec35b3582fde3a36a484a7e\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:11:9-40
 activity#jubairahmed.cse486.lab10.MainActivity
-ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:12:19-71
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:12:19-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\051200ace87f568e5c2b2f1bb33772bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\051200ace87f568e5c2b2f1bb33772bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\aec7d538729fdf7fee2a21c752dc97aa\AndroidManifest.xml:5:5-7:41
@@ -142,13 +142,13 @@ MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jubair\.gradle\caches\tra
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a00e1045b9911c0e0ba6d43e3a8e6942\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2dfc45621183ef7705986d10dc7a44d5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jubair\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2dfc45621183ef7705986d10dc7a44d5\AndroidManifest.xml:20:5-44
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		ADDED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
-		INJECTED from H:\NotifyMeCC\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		ADDED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Git\1631398_FA2020_CSE486.1\Assignments\Lab\Lab 10 - Dec 31 2020 Thursday\Notification\app\src\main\AndroidManifest.xml

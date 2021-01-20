@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NotifyMeCC.iml" filepath="$PROJECT_DIR$/.idea/modules/NotifyMeCC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NotifyMeCC.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NotifyMeCC.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Notification.iml" filepath="$PROJECT_DIR$/.idea/modules/Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Notification.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Notification.app.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\NotifyMeCC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "H:\\Git\\1631398_FA2020_CSE486.1\\Assignments\\Lab\\Lab 10 - Dec 31 2020 Thursday\\Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Jubair\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\1f9c6fcbfec35b3582fde3a36a484a7e\\res\\values-hu\\values-hu.xml",

@@ -137,7 +137,7 @@ public class Checkout extends AppCompatActivity {
             item.put("Menu", set );
             item.put("Quantity", quantity );
             item.put("EventDate", date );
-            item.put("TotalAmount", pay );
+            item.put("TotalAmount", Integer.toString(pay) );
             item.put("CustomerName", personName);
             item.put("CustomerAddress", personAddress);
             item.put("CustomerPhone", personPhone);
@@ -148,7 +148,7 @@ public class Checkout extends AppCompatActivity {
                 public void onComplete(@NonNull Task<Void> task) {
                     // this will be called when data is added successfully
                     pd.dismiss();
-                    Toast.makeText(Checkout.this,"Posted Successfully",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Checkout.this,"Order Placed Successfully",Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(Checkout.this, ConfirmOrder.class));
                 }
             }).addOnFailureListener(new OnFailureListener() {
